@@ -1,0 +1,14 @@
+PACKET QUEST — TOPIC 5 UPDATE CHECKLIST
+
+[ ] Export old room scores/full records you need from the current teacher dashboard
+[ ] Delete all old rooms before changing the bank
+[ ] Copy updated repository files into the existing GitHub repository
+[ ] Keep Packet_Quest_Topic5_BANK_KEY_PRIVATE.txt outside GitHub
+[ ] Set PACKET_BANK_KEY in the backend host from the separate private key file
+[ ] Keep the existing PACKET_TEACHER_KEY unchanged
+[ ] Confirm the backend health response reports 40 questions and the new bank ID
+[ ] GitHub Settings -> Pages -> Deploy from a branch -> main -> /docs
+[ ] Open the teacher dashboard and sign in
+[ ] Create a TEST room and check the updated question bank
+[ ] Test join, progress, submit, and final score on a phone
+[ ] Delete the test room and create the actual class room

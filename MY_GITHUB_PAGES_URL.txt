@@ -1,0 +1,8 @@
+STUDENT QUIZ
+https://franku69.github.io/Final-Networking-Quiz/
+
+TEACHER DASHBOARD
+https://franku69.github.io/Final-Networking-Quiz/teacher/
+
+PAGES SETTING
+GitHub repository -> Settings -> Pages -> Deploy from a branch -> main -> /docs -> Save
