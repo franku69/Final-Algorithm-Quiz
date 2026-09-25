@@ -34,7 +34,7 @@ jobs:
           test -f render.yaml
           grep -q "bankId: 'cs111-topic5-algorithms-40-final-v1'" docs/config.js
           grep -q 'questionCount: 40' docs/config.js
-          for diagram in algorithm-loop.svg algorithm-insertion-sort.svg algorithm-factorial-return.svg algorithm-binary-search.svg algorithm-chain-cut.svg algorithm-flowchart-symbols.svg; do
+          for diagram in algorithm-loop.jpg algorithm-insertion-sort.jpg algorithm-factorial-return.jpg algorithm-binary-search.jpg algorithm-chain-cut.jpg algorithm-flowchart-symbols.png; do
             test -f "docs/assets/$diagram"
           done
           if grep -RIl --exclude='*.md' --exclude='*.txt' 'PACKET_TEACHER_KEY=' docs backend/questions.enc 2>/dev/null; then
